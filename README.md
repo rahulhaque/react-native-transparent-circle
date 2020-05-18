@@ -15,4 +15,4 @@ A simple react native example of creating a transparent circle on top of backgro
 - Animate expand.
 
 ## Screenshots
-<img title="Compass" src="https://github.com/rahulhaque/react-native-transparent-circle/blob/master/screenshots/screen_1.png" width="300">
+<img title="Compass" src="https://github.com/rahulhaque/react-native-transparent-circle/blob/master/screenshots/screen_1.jpg" width="300">

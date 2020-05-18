@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'ReactNativeTest' do
-  # Pods for ReactNativeTest
+target 'react-native-svg-circle' do
+  # Pods for react-native-svg-circle
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,6 +77,10 @@ target 'ReactNativeTest' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
   target 'ReactNativeTestTests' do
     inherit! :complete
     # Pods for testing
@@ -94,10 +98,10 @@ target 'ReactNativeTest' do
   end
 end
 
-target 'ReactNativeTest-tvOS' do
-  # Pods for ReactNativeTest-tvOS
+target 'react-native-svg-circle-tvOS' do
+  # Pods for react-native-svg-circle-tvOS
 
-  target 'ReactNativeTest-tvOSTests' do
+  target 'react-native-svg-circle-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

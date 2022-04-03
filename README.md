@@ -2,6 +2,8 @@
 
 A simple react native example of creating a transparent circle on top of background image using [react-native-svg](https://github.com/react-native-community/react-native-svg).
 
+This repository is an answer to this [question](https://stackoverflow.com/questions/41810174/react-native-empty-circle-with-background-color) asked in StackOverflow.
+
 ## Run the App
 - Clone or download the repository.
 - `cd` into directory.
